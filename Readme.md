@@ -7,7 +7,7 @@ ToneSavvySolver helps with finishing ToneSavvy assignments by using a series of 
 
 ## Todo
 
-- [ ] Interval Identification - Ask General Intervals Implementation
+- [x] Interval Identification - Ask General Intervals Implementation
 - [ ] Chord Identification - Augmented & Diminished + Seventh Chords
 - [ ] Chord Identification - Inversions
 

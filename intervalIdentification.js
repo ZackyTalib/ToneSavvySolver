@@ -24,6 +24,10 @@ const { Chord } = require("@tonaljs/tonal");
   const intervalDictionary = ["Unison", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh", "Octave"];
   const qualityDictionary = ["Major", "Minor", "Perfect", "Augmented", "Diminished"];
 
+  const generalInterval = await page.evaluate(() => {
+    return Promise.resolve(document.querySelector("#general-checkbox").checked);
+  });
+
   let interval;
   let quality;
 
@@ -38,7 +42,10 @@ const { Chord } = require("@tonaljs/tonal");
     });
 
     await intervalAnswers[intervalDictionary.indexOf(interval)].click();
-    await qualityAnswers[qualityDictionary.indexOf(quality)].click();
+
+    if(!generalInterval){
+      await qualityAnswers[qualityDictionary.indexOf(quality)].click();
+    }
 
     await page.waitFor(1000);
   }

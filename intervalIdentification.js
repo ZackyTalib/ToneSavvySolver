@@ -1,5 +1,4 @@
 const puppeteer = require('puppeteer');
-const { Chord } = require("@tonaljs/tonal");
 
 // Username zacky
 // Password cats
@@ -32,7 +31,6 @@ const { Chord } = require("@tonaljs/tonal");
   let quality;
 
   for(i=1; i>0; i++){
-
     interval = await page.evaluate(() => {
       return Promise.resolve(ex.currentIntervalNumber);
     });

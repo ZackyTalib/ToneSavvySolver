@@ -2,14 +2,16 @@
 
 ToneSavvySolver helps with finishing ToneSavvy assignments by using a series of NodeJS files powered by Puppeteer & TonalJS
 
-  - Chord Indentification Assignment (Minor & Major Triads w Root Position)
-  - Interval Identification Assignment (Minor, Major, Perfect, Augmented, Diminished)
+  - Chord Indentification Assignment
+  - Interval Identification Assignment
+  - Note Names Assignment
 
 ## Todo
 
 - [x] Interval Identification - Ask General Intervals Implementation
 - [x] Chord Identification - Augmented & Diminished + Seventh Chords
 - [x] Chord Identification - Inversions
+- [x] Note Names Assignment
 
 ## Setup
 1. Make sure Chrome is installed since the Puppeteer is used as the automation library.

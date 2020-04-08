@@ -2,11 +2,11 @@
   "name": "tonesavvysolver",
   "version": "1.0.0",
   "description": "",
-  "main": "none",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Zacky Talib",
   "license": "ISC",
   "dependencies": {
     "@tonaljs/tonal": "^3.6.0",

@@ -14,15 +14,21 @@ ToneSavvySolver helps with finishing ToneSavvy assignments by using a series of 
 ## Setup
 1. Make sure Chrome is installed since the Puppeteer is used as the automation library.
 
-2. Install all the packages:
+2. Clone this github repository
+    > git clone https://github.com/ZackyTalib/ToneSavvySolver
+
+3. Install all the packages:
     > npm install
 
 ## Usage
 
 1. Run the required script based on the assignment
     > ***Chord Identification Assignment***
+    >
     > node chordIdentification
+    >
     > ***Interval Identification Assignment***
+    >
     > node intervalIdentification
 
 2. The script will start Chromium and take you to ToneSavvy's home page

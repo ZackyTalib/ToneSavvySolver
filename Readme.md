@@ -9,7 +9,7 @@ ToneSavvySolver helps with finishing ToneSavvy assignments by using a series of 
 
 - [x] Interval Identification - Ask General Intervals Implementation
 - [x] Chord Identification - Augmented & Diminished + Seventh Chords
-- [ ] Chord Identification - Inversions
+- [x] Chord Identification - Inversions
 
 ## Setup
 1. Make sure Chrome is installed since the Puppeteer is used as the automation library.

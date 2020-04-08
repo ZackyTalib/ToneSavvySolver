@@ -22,7 +22,7 @@ const { Chord } = require("@tonaljs/tonal");
   const qualityAnswers = await page.$$('.btn.btn-lg.btn-primary.interval-quality-answer-btn.answer-btn');
 
   const intervalDictionary = ["Unison", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh", "Octave"];
-  const qualityDictionary = ["Major", "Minor", "Perfect", "Augmented"];
+  const qualityDictionary = ["Major", "Minor", "Perfect", "Augmented", "Diminished"];
 
   let interval;
   let quality;

@@ -6,6 +6,7 @@ ToneSavvySolver helps with finishing ToneSavvy assignments by using a series of 
   - Interval Identification Assignment
   - Note Names Assignment
   - Rhythm Dictation Assignment
+  - Key Signature Identification Assignment
 
 ## Todo
 
@@ -14,6 +15,7 @@ ToneSavvySolver helps with finishing ToneSavvy assignments by using a series of 
 - [x] Chord Identification - Inversions
 - [x] Note Names Assignment
 - [x] Rhythm Dictation Assignment
+- [x] Key Signature Identification Assignment
 
 ## Setup
 1. Make sure Chrome is installed since the Puppeteer is used as the automation library.

@@ -21,7 +21,7 @@ ToneSavvySolver helps with finishing ToneSavvy assignments by using a series of 
 - [x] Key Signature Identification Assignment
 - [x] Interval Ear Training Assignment - All Intervals + No Auto Proceed
 - [ ] Interval Ear Training Assignment - Simple & Advanced Intervals
-- [ ] Interval Ear Training Assignment - Auto Proceed 
+- [ ] Interval Ear Training Assignment - Auto Proceed
 
 ## Setup
 1. Make sure Chrome is installed since the Puppeteer is used as the automation library.
@@ -43,7 +43,7 @@ ToneSavvySolver helps with finishing ToneSavvy assignments by using a series of 
     >
     > node intervalIdentification
 
-2. The script will start Chromium and take you to ToneSavvy's home page
+2. The script will start Chromium and take you to ToneSavvy's home page - wait until the home page has fully loaded before doing anything.
 
 > **Home Page**
 > ![Home Page](https://i.ibb.co/fxRYH43/4.png)

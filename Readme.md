@@ -7,15 +7,21 @@ ToneSavvySolver helps with finishing ToneSavvy assignments by using a series of 
   - Note Names Assignment
   - Rhythm Dictation Assignment
   - Key Signature Identification Assignment
+  - Interval Ear Training Assignment (All Intervals + No Auto Proceed)
 
 ## Todo
 
+- [x] Chord Identification Assignment - Major, Minor & Perfect Chords w Root Inversion
+- [x] Interval Identification - No General Intervals
 - [x] Interval Identification - Ask General Intervals Implementation
 - [x] Chord Identification - Augmented & Diminished + Seventh Chords
 - [x] Chord Identification - Inversions
 - [x] Note Names Assignment
 - [x] Rhythm Dictation Assignment
 - [x] Key Signature Identification Assignment
+- [x] Interval Ear Training Assignment - All Intervals + No Auto Proceed
+- [ ] Interval Ear Training Assignment - Simple & Advanced Intervals
+- [ ] Interval Ear Training Assignment - Auto Proceed 
 
 ## Setup
 1. Make sure Chrome is installed since the Puppeteer is used as the automation library.

@@ -1,3 +1,4 @@
+const duration = 1000;
 const puppeteer = require('puppeteer');
 
 // Username zacky
@@ -15,17 +16,9 @@ const puppeteer = require('puppeteer');
   await page.reload({waitUntil: ["networkidle0"], timeout: 0});
 
   const startButton = await page.$('#start-quiz');
-  const autoProceedOption = await page.evaluate(() => {
-    return Promise.resolve(document.querySelector("#quickstart-autoproceed").checked);
-  });
 
   await startButton.click();
-
-  let nextButton;
-
-  if(!autoProceedOption){
-    nextButton = await page.$('#hear-next-text');
-  }
+  const nextButton = await page.$('#hear-next-text');
 
   for(i=1; i>0; i++){
     await page.evaluate(() => {
@@ -33,13 +26,9 @@ const puppeteer = require('puppeteer');
       return Promise.resolve(ex.answerSemitones);
     });
 
-    await page.waitFor(1000);
+    await nextButton.click();
 
-    if(!autoProceedOption){
-      await nextButton.click();
-    }
-
-    await page.waitFor(1000);
+    await page.waitFor(duration);
   }
 
   //await browser.close();

@@ -1,3 +1,4 @@
+const duration = 1000;
 const puppeteer = require('puppeteer');
 
 // Username zacky
@@ -45,7 +46,7 @@ const puppeteer = require('puppeteer');
       await qualityAnswers[qualityDictionary.indexOf(quality)].click();
     }
 
-    await page.waitFor(1000);
+    await page.waitFor(duration);
   }
 
   //await browser.close();

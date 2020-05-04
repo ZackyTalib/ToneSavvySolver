@@ -1,3 +1,4 @@
+const duration = 1000;
 const puppeteer = require('puppeteer');
 
 // Username zacky
@@ -31,7 +32,7 @@ const puppeteer = require('puppeteer');
       await answers[rhythmDictionary.indexOf(rhythm[i])].click();
     }
 
-    await page.waitFor(1000);
+    await page.waitFor(duration);
   }
 
   //await browser.close();

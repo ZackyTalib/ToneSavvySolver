@@ -20,7 +20,7 @@ ToneSavvySolver helps with finishing ToneSavvy assignments by using a series of 
 - [x] Rhythm Dictation Assignment
 - [x] Key Signature Identification Assignment
 - [x] Interval Ear Training Assignment - All Intervals Option + No Auto Proceed
-- [ ] Interval Ear Training Assignment - Simple & Advanced Intervals
+- [ ] Interval Ear Training Assignment - Simple, Advanced & Custom Intervals
 - [x] Interval Ear Training Assignment - Auto Proceed
 
 ## Setup
